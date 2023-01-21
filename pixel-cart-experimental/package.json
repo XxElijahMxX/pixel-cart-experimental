@@ -11,6 +11,8 @@
   "dependencies": {
     "@babel/core": "^7.20.12",
     "@next/font": "13.1.4",
+    "@sanity/client": "^4.0.1",
+    "@sanity/image-url": "^1.0.2",
     "eslint": "8.32.0",
     "eslint-config-next": "13.1.4",
     "next": "13.1.4",
