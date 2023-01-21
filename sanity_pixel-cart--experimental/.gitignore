@@ -1,9 +1,11 @@
 # See https://help.github.com/articles/ignoring-files/ for more about ignoring files.
 
 # Dependencies
-/node_modules
+node_modules
 /.pnp
 .pnp.js
+.env
+
 
 # Compiled Sanity Studio
 /dist
@@ -21,6 +23,6 @@
 # Misc
 .DS_Store
 *.pem
-
+.env
 # Typescript
 *.tsbuildinfo
