@@ -248,8 +248,8 @@ text-align: end;
   position: absolute;
   /* top: -35%;
   left: 8%; */
-  top: -25%;
-  left: 25%;
+  top: 20%;
+  left: 35%;
 }
 .banner-desc .right{
   line-height: 1.4;
@@ -432,8 +432,8 @@ padding: 30px 65px;
   border-radius: 15px;
    background-color: #ebebeb;
 
-  width: 400px;
-  height: 400px;
+  width: 380px;
+  height: 250px;
   cursor: pointer;
   transition: .3s ease-in-out;
 }
