@@ -20,8 +20,8 @@ const FooterBanner = ({footerBanner: {largeText1, largeText2, smallText, midText
                 </Link>
             </div>
 
-            <img src={urlFor(image)} className="footer-banner-image"  width={280} 
-                 height={350} />
+            <img src={urlFor(image)} className="footer-banner-image"  width={380} 
+                 height={250} />
         </div>
 
     </div>

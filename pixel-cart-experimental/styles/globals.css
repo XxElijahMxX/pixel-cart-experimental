@@ -166,10 +166,10 @@ width: 100%;
 }
 .hero-banner-image{
   position: absolute;
-  top: 0%;
-  right:10%;
+  top: 15%;
+  right:5%;
   width: 380px;
-  height: 350px;
+  height: 250px;
 }
 
 
@@ -423,6 +423,11 @@ padding: 30px 65px;
 
 }
 
+.slug-image{
+  width: 380px;
+  height: 250px;
+}
+
 .product-detail-image{
   border-radius: 15px;
    background-color: #ebebeb;
@@ -633,10 +638,10 @@ margin-top: 160px;
     margin-top: 80px;
   }
   .footer-banner-image{
-    width: 180px;
+    width: 250px;
     left: 35%;
     top: 45%;
-    height: 250px
+    height: 180px
   }
   .banner-desc .left h3{
     font-weight: 900;
