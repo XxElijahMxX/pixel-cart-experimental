@@ -15,10 +15,10 @@ export const StateContext = ({ children }) => {
     const addToCart = (product, quantity) => {
         const checkProductInCart = cartItems.find((item) => item._id === product._id);
 
-        if(checkProductInCart) {
             setTotalPrice((previousTotalPrice) => previousTotalPrice + product.price * quantity);
             setTotalQuantities((previousTotalQuantities) => previousTotalQuantities + quantity)
 
+            if(checkProductInCart) {
             const updateCartItems = cartItems.map((cartProduct) => {
                 if(cartProduct._id === product._id) return {
                     ...cartProduct,
@@ -43,7 +43,7 @@ export const StateContext = ({ children }) => {
 
     const decreaseQty = () =>  {
         setQty((previousQty) => {
-        if(previousQty -1 <1) return 1;
+        if(previousQty -1 < 1) return 1;
 
          return previousQty - 1;
         });
