@@ -24,6 +24,10 @@ width: 100%;
 }
 .layout{
   padding: 10px;
+  /*background-image: url("../public/images/thumb-1920-739675.jpg");
+  background-repeat: no-repeat;
+  background-size: contain;
+  background-position: center;*/
 }
 
 .navbar-container{
@@ -57,7 +61,7 @@ width: 100%;
 }
 @keyframes marquee {
   from { transform: translateX(0); }
-  to { transform: translateX(-50%); }
+  to { transform: translateX(-86%); }
 }
 
  span.text-red {
@@ -86,7 +90,7 @@ width: 100%;
   right: -8px;
   font-size: 12px;
   color: #eee;
-  background-color: #f02d34;
+  background-color: #000000;
   width: 18px;
   height: 18px;
   border-radius: 50%;
@@ -98,6 +102,7 @@ width: 100%;
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
+  columns: auto;
   gap: 15px;
   margin-top: 20px;
   width: 100%;
@@ -130,7 +135,7 @@ width: 100%;
 
 .hero-banner-container{
   padding: 100px 40px;
-  background-color: #dcdcdc;
+  background-color: #000000;
   border-radius: 15px;
   position: relative;
   height: 500px;
@@ -144,8 +149,8 @@ width: 100%;
 .hero-banner-container button{
    border-radius: 15px;
   padding: 10px 16px;
-  background-color: #f02d34;
-  color: white;
+  background-color: #ffffff;
+  color: rgb(0, 0, 0);
   border: none;
   margin-top: 40px;
   font-size: 18px;
@@ -181,11 +186,11 @@ width: 300px;
 line-height: 1.3;
 display: flex;
 flex-direction: column;
- color: #324d67;
+ color: #000000;
 
 }
 .desc p{
-  color: #5f5f5f;
+  color: #ffffff;
   font-weight: 100;
 text-align: end;
 }
@@ -199,7 +204,7 @@ text-align: end;
 .products-heading{
   text-align: center;
   margin: 40px 0px;
- color: #324d67;
+ color: #000000;
 
 }
 .products-heading h2{
@@ -212,7 +217,7 @@ text-align: end;
 }
 .footer-banner-container{
   padding: 100px 40px;
-  background-color: #f02d34;
+  background-color: #000000;
   border-radius: 15px;
   position: relative;
   height: 400px;
@@ -229,7 +234,7 @@ text-align: end;
   border-radius: 15px;
   padding: 10px 16px;
   background-color: white;
-  color: red;
+  color: black;
   border: none;
   margin-top: 40px;
   font-size: 18px;
@@ -321,7 +326,7 @@ text-align: end;
 }
 .cart-num-items{
   margin-left: 10px;
-  color: #f02d34;
+  color: #000000;
 }
 .empty-cart{
   margin:40px;
@@ -354,7 +359,7 @@ padding: 20px 10px;
 .item-desc .flex{
   display: flex;
   justify-content: space-between;
-  width: 350px;
+  width: 250px;
    color: #324d67;
 
 }
@@ -405,7 +410,7 @@ padding: 30px 65px;
   margin-top: 10px;
   margin-top: 40px;
   text-transform: uppercase;
-  background-color: #f02d34;
+  background-color: #000000;
   color: #fff;
   cursor: pointer;
     transform: scale(1, 1);
@@ -438,7 +443,7 @@ padding: 30px 65px;
   transition: .3s ease-in-out;
 }
 .product-detail-image:hover{
-  background-color: #f02d34;
+  background-color: #9c25fd;
 
 }
 .small-images-container{
@@ -455,10 +460,10 @@ padding: 30px 65px;
 }
 
 .selected-image{
-  background-color:#f02d34;
+  background-color: #9c25fd;
 }
 .reviews{
-  color: #f02d34;
+  color: #fffb22;
   margin-top: 10px;
   display: flex;
   gap: 5px;
@@ -479,7 +484,7 @@ padding: 30px 65px;
   font-weight: 700 ;
   font-size: 26px;
   margin-top: 30px;
-  color:#f02d34;
+  color:#000000;
 }
 .price .old-price, .product-price .old-price, .price .old-price{
   color: gray;
@@ -497,12 +502,12 @@ padding: 30px 65px;
 }
 .buttons .add-to-cart{
   padding: 10px 20px;
-  border: 1px solid #f02d34 ;
+  border: 1px solid #000000 ;
   margin-top: 40px;
   font-size: 18px;
   font-weight: 500;
   background-color: white;
-  color: #f02d34;
+  color: #000000;
   cursor: pointer;
   width: 200px;
    transform: scale(1, 1);
@@ -515,7 +520,7 @@ padding: 30px 65px;
   width: 200px;
 
   padding: 10px 20px;
-  background-color: #f02d34;
+  background-color: #000000;
   color: white;
   border: none;
   margin-top: 40px;
@@ -684,8 +689,8 @@ margin-top: 160px;
     flex-wrap: wrap;
     }
   .product-detail-container .product-detail-image{
-    width: 350px;
-    height: 350px;
+    width: 380px;
+    height: 250px;
   }
   .cart-container{
     width: 415px;
@@ -743,7 +748,7 @@ margin-top: 160px;
   font-size: 20px;
 }
 .track {
-  animation: marquee 10s linear infinite;
+  animation: marquee 20s linear infinite;
   width: 550%;
 }
 .success-wrapper, .cancel-wrapper{
