@@ -2,19 +2,9 @@ import React, { useState, useEffect } from "react";
 
 import { client } from "../lib/client";
 import { Product, FooterBanner, HeroBanner } from "../components";
-import '../public/images/pressStart.jpg'
 
 export default function Home({ products, bannerData }) {
   const [cartItems, setCartItems] = useState(true);
-
-useEffect(() => {
-  const data = window.localStorage.getItem('CART_ITEMS');
-  if ( data !== null ) setCartItems(JSON.parse(data))
-}, [])
-
-useEffect(() => {
-  window.localStorage.setItem('CART_ITEMS', JSON.stringify(cartItems))
-}, [cartItems])
 
 return (
   <div>

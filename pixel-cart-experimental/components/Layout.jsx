@@ -3,7 +3,6 @@ import Head from 'next/head'
 
 import Navbar  from './Navbar'
 import Footer from './Footer'
-import '../public/images/pressStart.jpg'
 
 const Layout = ({ children }) => {
   return (
@@ -15,7 +14,6 @@ const Layout = ({ children }) => {
             <Navbar />
         </header>
         <main className='main-container'>
-            <img src="../public/images/pressStart.pg" alt="" />
             {children}
         </main>
         <footer>
