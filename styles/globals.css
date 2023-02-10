@@ -629,19 +629,19 @@ margin-top: 160px;
     height: 560px;
   }
   .hero-banner-image{
-    width: 250px;
+    width: 200px;
     height: 150px;
-    top: 40%;
-    right: 0%;
+    top: 45%;
+    right: 3%;
   }
   .footer-banner-container{
     height: 560px;
     margin-top: 80px;
   }
   .footer-banner-image{
-    width: 250px;
-    left: 35%;
-    top: 45%;
+    width: 200px;
+    left: 43%;
+    top: 55%;
     height: 180px
   }
   .banner-desc .left h3{
