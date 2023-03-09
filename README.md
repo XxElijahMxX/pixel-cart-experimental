@@ -13,5 +13,4 @@ This app is deployed using vercel, and the link to the deployed site is
 https://pixel-cart-experimental.vercel.app/
 
 
-![Pixel Cart](http://https://pixel-cart-experimental.vercel.app/
-/to/img.png)
+![Pixel Cart](http://https://pixel-cart-experimental.vercel.app/to/img.png)
